@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="zh-TW">
+<html lang="en">
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
@@ -19,10 +19,6 @@
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-light" id="mainNav">
             <div class="container px-4 px-lg-5">
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                    Menu
-                    <i class="fas fa-bars"></i>
-                </button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ms-auto py-4 py-lg-0">
                         <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="index.html">Home</a></li>
@@ -35,13 +31,12 @@
         </nav>
         <!-- Page Header-->
         <header class="masthead" style="background-image: url('assets/img/post-bg.jpg')">
-        <!--<header class="masthead" style="background-image: url('assets/img/post-bg.jpg'); padding-top: 7%; background-size: cover; background-position: center;"></header> -->
             <div class="container position-relative px-4 px-lg-5">
                 <div class="row gx-4 gx-lg-5 justify-content-center">
                     <div class="col-md-10 col-lg-8 col-xl-7">
                         <div class="post-heading">
-                            <h1 style="font-size: 3rem; text-align: center;">Project</h1>
-                            <!-- <h2 class="subheading">Description</h2> -->
+                            <h1>專利分析及企業合作網絡視覺化</h1>
+                            <!-- <h2 class="subheading">Problems look mighty small from 150 miles up</h2> -->
                         </div>
                     </div>
                 </div>
@@ -52,25 +47,27 @@
             <div class="container px-4 px-lg-5">
                 <div class="row gx-4 gx-lg-5 justify-content-center">
                     <div class="col-md-10 col-lg-8 col-xl-7">
-                        <h2 class="section-heading">金融服務與金融科技微學程課程專案</h2>
-                        <p>透過與銀行業產學合作，並進行敘述性、診斷、預測、指示性分析，並提出行銷方案、商業建議以及輔助用的數據視覺化儀表板
-                            <a href="project_case1.html" style="color: gray; font-size: 1rem;">(閱讀更多)</a>
-                        </p>
-                        <img class="img-fluid" src="assets/project_cover/project1.png" alt="..." style="max-width: 70%; height: auto; display: block; margin: 0 auto;" />
-                        <!-- Divider-->
-                        <hr class="my-4" />
-                        <h2 class="section-heading">自然語言處理及視覺化專案</h2>
-                        <p>透過文集分析，對文集資料進行資料探勘，以瞭解關鍵字之間共同出現的關係、以及關鍵字隨時間變化的趨勢
-                            <a href="project_case2.html" style="color: gray; font-size: 1rem;">(閱讀更多)</a>
-                        </p>
-                        <img class="img-fluid" src="assets/project_cover/project2.png" alt="..." style="max-width: 70%; height: auto; display: block; margin: 0 auto;" />
-                        <!-- Divider-->
-                        <hr class="my-4" />
-                        <h2 class="section-heading">專利分析及企業合作網絡視覺化</h2>
-                        <p>對專利資料進行文集分析以瞭解專利資料中所包含的技術資訊，以及特定產業的公司合作網絡
-                            <a href="project_case3.html" style="color: gray; font-size: 1rem;">(閱讀更多)</a>
-                        </p>
-                        <img class="img-fluid" src="assets/project_cover/project3.png" alt="..." style="max-width: 70%; height: auto; display: block; margin: 0 auto;" />
+                        <p>此為擔任研究助理時，個人所開發的互動式數據儀表板，在進行專利資料分析發現，分析上遇到一些困難，如：花費大量時間尋找特定幾筆專利資料、統計資訊速度過慢、需查閱整合多份資料資訊，為了解決上述問題，自行專寫了互動式儀表板，可以透過輸入公司名稱，快速得到該公司的專利資料、技術資訊、合作關係及領域、預測模型推薦結果。</p>
+                        <p>本互動儀表板，一共有五個頁面，分別為：資料清理、專利搜索、CPC領域分析、合作夥伴推薦、推薦網絡，下文中將介紹專利搜索、CPC領域分析、合作夥伴推薦三個部分。</p>
+                        <p>牽涉資料隱私性的緣故，下列圖表皆已去識別化處理。</p>
+                        <p>圖一為使用資料的來源網站:Lens.org</p>
+                        <a href="#!"><img class="img-fluid" src="assets/project_img/p7.png" alt="..." /></a>
+                        <span class="caption text-muted">圖一</span>
+                        <p>圖二為專利搜索部分，此頁面可以在左上輸入一間或二間公司，搜尋資料中該公司或兩間公司的所有專利，並以列表呈現，在變數選擇中可以選擇搜尋單間公司，或是兩間公司共同持有的專利</p>
+                        <p>此外可以透過點選右上角區塊選擇欲查看的專利，並將在底下顯示該專利的初步資訊，以及網站連結，使查看特定專利時可以減少搜尋時間，透過網站連結也可以快速找到專利的完整資訊</p>
+                        <p>圖二中以TOYOTA為例：</p>
+                        <a href="#!"><img class="img-fluid" src="assets/project_img/p8.png" alt="..." /></a>
+                        <span class="caption text-muted">圖二</span>
+                        <p>圖三為CPC領域分析，此頁面與專利搜索頁面同步，會依照圖二頁面所搜尋的公司進行計算、顯示，顯示出該公司的合作夥伴、該公司的技術領域、合作夥伴的技術領域、兩公司共同合作的技術領域</p>
+                        <p>在圖三頁面中，可以透過點選公司合作夥伴進行互動，並顯示該公司技術領域、以及與原搜索公司的合作領域</p>
+                        <a href="#!"><img class="img-fluid" src="assets/project_img/p9.png" alt="..." /></a>
+                        <span class="caption text-muted">圖三</span>
+                        <p>圖四為合作夥伴推薦，此頁面結合了深度學習預測結果，將資料進行了合併(Join)，以顯示該公司的預測結果以及過往專利是否有與搜索公司合作過</p>
+                        <a href="#!"><img class="img-fluid" src="assets/project_img/p10.png" alt="..." /></a>
+                        <span class="caption text-muted">圖四</span>
+                        <p>圖五，最後為公司合作網絡視覺化，透過將搜集的資料進行清理並計算，並使用Gephi呈現，在圖中可以觀察合作網絡中重要的節點(公司)，以及以特定公司為中心所形成的群集。</p>
+                        <a href="#!"><img class="img-fluid" src="assets/project_img/p11.png" alt="..." /></a>
+                        <span class="caption text-muted">圖五</span>
                     </div>
                 </div>
             </div>
@@ -82,31 +79,31 @@
                     <div class="col-md-10 col-lg-8 col-xl-7">
                         <ul class="list-inline text-center">
                             <li class="list-inline-item">
-                                <a href="mailto:dawsonkao52e@gmail.com">
+                                <a href="#!">
                                     <span class="fa-stack fa-lg">
                                         <i class="fas fa-circle fa-stack-2x"></i>
-                                        <i class="fas fa-envelope fa-stack-1x fa-inverse"></i>
+                                        <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
                                     </span>
                                 </a>
                             </li>
                             <li class="list-inline-item">
-                                <a href="https://github.com/Dawsonkao">
+                                <a href="#!">
+                                    <span class="fa-stack fa-lg">
+                                        <i class="fas fa-circle fa-stack-2x"></i>
+                                        <i class="fab fa-facebook-f fa-stack-1x fa-inverse"></i>
+                                    </span>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="#!">
                                     <span class="fa-stack fa-lg">
                                         <i class="fas fa-circle fa-stack-2x"></i>
                                         <i class="fab fa-github fa-stack-1x fa-inverse"></i>
                                     </span>
                                 </a>
                             </li>
-                            <li class="list-inline-item">
-                                <a href="https://www.linkedin.com/in/ying-pei-kao" target="_blank">
-                                    <span class="fa-stack fa-lg">
-                                        <i class="fas fa-circle fa-stack-2x"></i>
-                                        <i class="fab fa-linkedin fa-stack-1x fa-inverse"></i>
-                                    </span>
-                                </a>
-                            </li>
                         </ul>
-                        <div class="small text-center text-muted fst-italic">Copyright &copy; Dawson's Portfolio</div>
+                        <div class="small text-center text-muted fst-italic">Copyright &copy; Your Website 2023</div>
                     </div>
                 </div>
             </div>

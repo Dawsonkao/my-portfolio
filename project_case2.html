@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="zh-TW">
+<html lang="en">
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
@@ -19,10 +19,6 @@
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-light" id="mainNav">
             <div class="container px-4 px-lg-5">
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                    Menu
-                    <i class="fas fa-bars"></i>
-                </button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ms-auto py-4 py-lg-0">
                         <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="index.html">Home</a></li>
@@ -35,13 +31,12 @@
         </nav>
         <!-- Page Header-->
         <header class="masthead" style="background-image: url('assets/img/post-bg.jpg')">
-        <!--<header class="masthead" style="background-image: url('assets/img/post-bg.jpg'); padding-top: 7%; background-size: cover; background-position: center;"></header> -->
             <div class="container position-relative px-4 px-lg-5">
                 <div class="row gx-4 gx-lg-5 justify-content-center">
                     <div class="col-md-10 col-lg-8 col-xl-7">
                         <div class="post-heading">
-                            <h1 style="font-size: 3rem; text-align: center;">Project</h1>
-                            <!-- <h2 class="subheading">Description</h2> -->
+                            <h1>自然語言處理及資料視覺化</h1>
+                            <!-- <h2 class="subheading">Problems look mighty small from 150 miles up</h2> -->
                         </div>
                     </div>
                 </div>
@@ -52,25 +47,20 @@
             <div class="container px-4 px-lg-5">
                 <div class="row gx-4 gx-lg-5 justify-content-center">
                     <div class="col-md-10 col-lg-8 col-xl-7">
-                        <h2 class="section-heading">金融服務與金融科技微學程課程專案</h2>
-                        <p>透過與銀行業產學合作，並進行敘述性、診斷、預測、指示性分析，並提出行銷方案、商業建議以及輔助用的數據視覺化儀表板
-                            <a href="project_case1.html" style="color: gray; font-size: 1rem;">(閱讀更多)</a>
-                        </p>
-                        <img class="img-fluid" src="assets/project_cover/project1.png" alt="..." style="max-width: 70%; height: auto; display: block; margin: 0 auto;" />
-                        <!-- Divider-->
-                        <hr class="my-4" />
-                        <h2 class="section-heading">自然語言處理及視覺化專案</h2>
-                        <p>透過文集分析，對文集資料進行資料探勘，以瞭解關鍵字之間共同出現的關係、以及關鍵字隨時間變化的趨勢
-                            <a href="project_case2.html" style="color: gray; font-size: 1rem;">(閱讀更多)</a>
-                        </p>
-                        <img class="img-fluid" src="assets/project_cover/project2.png" alt="..." style="max-width: 70%; height: auto; display: block; margin: 0 auto;" />
-                        <!-- Divider-->
-                        <hr class="my-4" />
-                        <h2 class="section-heading">專利分析及企業合作網絡視覺化</h2>
-                        <p>對專利資料進行文集分析以瞭解專利資料中所包含的技術資訊，以及特定產業的公司合作網絡
-                            <a href="project_case3.html" style="color: gray; font-size: 1rem;">(閱讀更多)</a>
-                        </p>
-                        <img class="img-fluid" src="assets/project_cover/project3.png" alt="..." style="max-width: 70%; height: auto; display: block; margin: 0 auto;" />
+                        <p>此為自然語言處理分析專案中數據分析團隊所共同開發的各類數據儀表板，透過將文集資料進行tokenize，並建立字詞表、字詞共同出現矩陣，以進行各類分析如：分析字詞之間的關聯性，透過社會網絡分析(SNA)來分析字詞之間社會網絡，或分析特定關鍵字的時間趨勢，以及在不同文集來源中的分布情形，並根據上述分析輔助自行開發、可互動的數據儀表板，來對所關注的關鍵字進行搜索，可以找出與關鍵字相關的關鍵字以及相關文章並進行閱讀、分析，也可以透過輸入關鍵字來查找該關鍵字的文集來源或觀看某類別底下關鍵字出現的時間趨勢。</p>
+                        <p>註：為了保護資料隱私，以將所有字詞進行去識別化，文章部分則進行屏蔽。</p>
+                        <p>在圖一，可以透過左邊面板可以選擇欲查看的關鍵字類別以及關鍵字的社會網絡，此外由額外設定可供選擇如呈現的網絡該有多少節點、共同出現的判別方式要以何種方式判定，選項有共同出現在同一句子、段落、篇幅。</p>
+                        <a href="#!"><img class="img-fluid" src="assets/project_img/p3.png" alt="..." /></a>
+                        <span class="caption text-muted">圖一</span>
+                        <p>點選後關鍵字後將呈現以該關鍵字為中心形成的網絡，如圖二是以關鍵字Keyword1323所形成的社會網絡，數據儀表板右邊則會呈現有出現Keyword1323的文章列表，並可透過點選右下角區塊進行互動，並在右上角顯示所點選文章的完整標題。</p>
+                        <a href="#!"><img class="img-fluid" src="assets/project_img/p4.png" alt="..." /></a>
+                        <span class="caption text-muted">圖二</span>
+                        <p>在圖三，輸入欲尋找的關鍵字，並顯示出現該關鍵字的相關文章，並可互動透過點選左下角區塊(如出現藍色區域)的文章標題來選擇想查詢的文章，並呈現在儀表板，右上角則為關鍵字所出現文章的來源統計。</p>
+                        <a href="#!"><img class="img-fluid" src="assets/project_img/p5.png" alt="..." /></a>
+                        <span class="caption text-muted">圖三</span>
+                        <p>在圖四，關鍵字類別為關鍵字的屬性，關鍵字類別底下有多個關鍵字，透過數據儀表板來查看不同關鍵字類別底下關鍵字出現頻率的年度趨勢。</p>
+                        <a href="#!"><img class="img-fluid" src="assets/project_img/p6.png" alt="..." /></a>
+                        <span class="caption text-muted">圖四</span>
                     </div>
                 </div>
             </div>
@@ -82,31 +72,31 @@
                     <div class="col-md-10 col-lg-8 col-xl-7">
                         <ul class="list-inline text-center">
                             <li class="list-inline-item">
-                                <a href="mailto:dawsonkao52e@gmail.com">
+                                <a href="#!">
                                     <span class="fa-stack fa-lg">
                                         <i class="fas fa-circle fa-stack-2x"></i>
-                                        <i class="fas fa-envelope fa-stack-1x fa-inverse"></i>
+                                        <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
                                     </span>
                                 </a>
                             </li>
                             <li class="list-inline-item">
-                                <a href="https://github.com/Dawsonkao">
+                                <a href="#!">
+                                    <span class="fa-stack fa-lg">
+                                        <i class="fas fa-circle fa-stack-2x"></i>
+                                        <i class="fab fa-facebook-f fa-stack-1x fa-inverse"></i>
+                                    </span>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="#!">
                                     <span class="fa-stack fa-lg">
                                         <i class="fas fa-circle fa-stack-2x"></i>
                                         <i class="fab fa-github fa-stack-1x fa-inverse"></i>
                                     </span>
                                 </a>
                             </li>
-                            <li class="list-inline-item">
-                                <a href="https://www.linkedin.com/in/ying-pei-kao" target="_blank">
-                                    <span class="fa-stack fa-lg">
-                                        <i class="fas fa-circle fa-stack-2x"></i>
-                                        <i class="fab fa-linkedin fa-stack-1x fa-inverse"></i>
-                                    </span>
-                                </a>
-                            </li>
                         </ul>
-                        <div class="small text-center text-muted fst-italic">Copyright &copy; Dawson's Portfolio</div>
+                        <div class="small text-center text-muted fst-italic">Copyright &copy; Your Website 2023</div>
                     </div>
                 </div>
             </div>
